@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photographer</title>
+    <link rel="stylesheet" href="/CSS/i.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            
+
+            <div class="nav-contact">
+                <img src="/assets/logo/LOGO  WHITE.png" alt="logo" width="150px" height="30px">
+            </div>
+            <div class="hamburger-menu1">
+                
+                <div class="nav-logo" id="nav-logo">
+                   <a href="#">Home</a>
+                   <a href="#about">About</a>
+                   <a href="#services">Services</a>
+                   <a href="#contact">Contact</a>
+                </div>
+               
+            <div class="nav-socials">
+               <a href="https://x.com/JavanMwanyota?s=09"><img src="/assets/icons/twitter.png" alt="twiter" width="25px"></a>
+               <a href="https://www.instagram.com/mwanyotajavan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="/assets/icons/instagram.png" alt="instagram" width="25px"></a>
+               <a href="https://www.facebook.com/javan.mwanyota.9?sfnsn=wa&mibextid=2JQ9oc"><img src="/assets/icons/facebook.png" alt="facebook" width="25px"></a>
+            </div>
+            
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+            <div class="mobile-menu">
+                
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+
+                <div class="nav-socials1">
+                    <a href="https://x.com/JavanMwanyota?s=09"><img src="/assets/icons/twitter.png" alt="thu" width="25px"></a>
+                    <a href="https://www.instagram.com/mwanyotajavan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="/assets/icons/instagram.png" alt="intagram" width="25px"></a>
+                    <a href="https://www.facebook.com/javan.mwanyota.9?sfnsn=wa&mibextid=2JQ9oc"><img src="/assets/icons/facebook.png" alt="facbook" width="25px"></a>
+                 </div>
+
+                 <div class="n-logo">
+                    <img src="/assets/logo/NEW LOGO black.png" alt="logo" width="250px" style="text-align: center;">
+                 </div>
+            </div>
+
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <div class="card">
+                        <h2><span>Hi,</span><br> I'm <strong>Javan Mwalugha</strong></h2>
+                        <h1>Wildlife photographer <br>and bird Enthusiast.</h1>                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-tags">
+                        <h2>My speciality,</h2>
+                        <div class="tags">
+                            <span>Photography.</span>
+                            <span>Video Editing.</span>
+                            <span>Event manager.</span>
+                            <span>Photo Editing.</span>
+                            <span>Event Recording.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <div class="image" >
+                        <img src="/assets/_images/about page.jpg" alt="my profile" srcset="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>About me.</h1>
+                    <div class="desc">
+                        
+                        <p>
+                            My name is Javan Mwanyota Mwalugha a passionate wildlife photographer 
+                            who is always intrested in expressing the beauty of nature as it 
+                            expresses itself in wildlife. Over the years, I have endeavored 
+                            to push my limits to try and help with endangered species for a better 
+                            world safe for us and wildlife.
+                        </p>
+                       
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider" id="services">
+        <h1>MY WORK.</h1>
+        <div class="portfolio">
+            <div class="box">
+                <img src="/assets/_images/image1.jpg" alt="Fashion Photo 1" width="300px" onclick="openModal(this)">
+                <img src="/assets/_images/image2.jpg" alt="Fashion Photo 1" width="300px" onclick="openModal(this)">
+                <img src="/assets/_images/image3.jpg" alt="Fashion Photo 1" width="300px" onclick="openModal(this)">
+                <img src="/assets/_images/image4.jpg" alt="Fashion Photo 1" width="300px" onclick="openModal(this)">
+                <img src="/assets/_images/image5.jpg" alt="Fashion Photo 1" width="300px" onclick="openModal(this)">
+                <img src="/assets/_images/impala.jpg" alt="Fashion Photo 1" width="300px" onclick="openModal(this)">
+                <img src="/assets/_images/butterfly.jpg" alt="Fashion Photo 1" width="300px" onclick="openModal(this)">
+            </div>
+        </div>
+        <div id="modal" class="modal-overlay">
+            <div class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modal-img" class="modal-content" src="">
+            </div>
+        </div>
+        <div class="experience">
+            <div class="experience-1">
+                <img src="/assets/logo/adobe illustrator.jpg" alt="hj" width="50px">
+
+                <h2 style="color: rgb(211, 198, 17);">ADOBE ILLUSTRATOR.</h2>
+
+                <P ><P>I design print materials like posters, flyers, and business cards.</P>
+
+            </div>
+            <div class="experience-1">
+                <img src="/assets/logo/light room.jpg" alt="hj" width="50px">
+
+                <h2 style="    color: rgb(15, 175, 175);">LIGHT ROOM</h2>
+
+                <P ><p>I edit, organize and manage digital photos.</P>
+
+            </div>
+            <div class="experience-1">
+                <img src="/assets/logo/photoshop.jpg" alt="hj" width="50px">
+
+                <h2 style="color: aquamarine;">PHOTOSHOP</h2>
+
+                <P>I edit, retouch, heal digital photosand also design.</P>
+
+            </div>
+            
+            <div class="experience-1">
+                <img src="/assets/logo/p r.jpg" alt="hj" width="50px">
+
+                <h2 style="color: rgb(136, 78, 136);">PREMIERE PRO</h2>
+
+                <P>I do video editing, arranging and producing video content </P>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <div class="card">
+                        <h1>My work.</h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="/assets/_images/lion.jpg" alt="" srcset="" style="border-radius: 10px;">
+                    </div>
+                    <div class="card">
+                        <h2>Natures best.</h2>
+                        <p>King of the jungle....</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="/assets/_images/butterfly.jpg" alt="" srcset="" style="border-radius: 10px;">
+                    </div>
+                    <div class="card">
+                        <h2>Insects</h2>
+                        <p>Butterflies .....</p>
+                    </div>
+                </div>
+                <div class="item" style="overflow: hidden;">
+                    <div class="image">
+                        <img src="/assets/_images/giraffe.jpg" alt="" srcset="" style="border-radius: 10px;">
+                    </div>
+                    <div class="card" style="overflow: hidden;">
+                        <h2>Wildlife's Tallest </h2>
+                        <p>giraffe.....</p>
+                    </div>
+                </div>
+                <div class="item" style="overflow: hidden;">
+                    <div class="image">
+                        <img src="/assets/_images/zebra.jpg" alt="" srcset="" style="border-radius: 10px;">
+                    </div>
+                    <div class="card">
+                        <h2>Wildlife</h2>
+                        <p>Animals,greenery,waterbody ...</p>
+                    </div>
+                </div>
+                <div class="item" style="overflow: hidden;">
+                    <div class="image">
+                        <img src="/assets/_images/football.jpg" alt="" srcset="" style="border-radius: 10px;">
+                    </div>
+                    <div class="card">
+                        <h2>Sports</h2>
+                        <p>Football,Olympics, PvP...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer id="contact">
+        <div class="comment">
+            <h1>
+                Get In Touch. 
+            </h1>
+
+            <p>
+                let's make eternal memmories together.... 
+            </p>
+        </div>
+
+        <div class="form">
+            <div class="information">
+                <div class="information2">
+                    <h3>
+                        Contact Information.
+                    </h3>
+                    <p>
+                        I also offer a wide range of photography services 
+                        which include event photography and product photography.
+                        
+                    </p>
+
+                    <div class="info-pic">
+                        <img src="/assets/icons/phone-call.png" alt="phone" width="40px">
+                        <div class="pp">
+                            <p> + 254 789853864| +254 768745411 </p>
+                        </div>
+                    </div>
+
+                    <div class="info-pic2">
+                        <img src="/assets/icons/envelope.png" alt="email" width="40px">
+                        <p> <u> mwanyottajavan@gmail.com</u> </p>
+
+                    </div>
+
+                    <div class="info-pic3">
+                        <img src="/assets/icons/arrow-circle-right.png" alt="location" width="40px">
+                        <p>
+                            Nairobi | Kenya
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fill-in">
+                <form   action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="57eac130-6225-4d6d-864c-a95c2d02f68a">
+                    <div class="first-1">
+                        <input  id="text" placeholder="YOUR NAME" type="text" name="name"  required> 
+                        <input type="email" name="email" id="email" placeholder="YOUR EMAIL" required >
+                    </div>
+                    <div class="second-2">
+                        <div class="mess">
+                            <textarea name="" id="" cols="5" rows="10" placeholder="Write your message" name="message" ></textarea>
+                        </div>
+                        <button type="submit" >Send message</button>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        
+    <div class="finished">
+        <div class="down">
+            <img src="/assets/logo/NEW LOGO black.png" alt="logo" width="150px" height="40px">
+
+            <a href="https://www.instagram.com/mwanyotajavan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="/assets/icons/instagram.png" alt="yu" width="30px"></a>
+            <a href="https://x.com/JavanMwanyota?s=09"><img src="/assets/icons/twitter.png" alt="gh" width="30px"></a>
+            <a href="https://www.facebook.com/javan.mwanyota.9?sfnsn=wa&mibextid=2JQ9oc"><img src="/assets/icons/facebook.png" alt="ui" width="30px"></a>
+        
+        </div>
+        <div class="down">
+                 <p>
+                    Developed by <span>Steve.keago.</span>
+                 </p>
+                <a href="https://www.instagram.com/dev_d2.0?igsh=MTVmdmY5YmtjZXdwag=="><img src="/assets/icons/instagram.png" alt="hjkl" width="30px"></a>
+            
+            </div>
+    </div>
+    </footer>
+
+    
+    
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script src="/Javascript/script.js"></script>
+
+</body>
+
+</html>
