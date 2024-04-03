@@ -1033,6 +1033,12 @@ form{
 }
 
 @media only screen and (max-width:810px){
+    /* new edit */
+    .about{
+        display :flex ;
+        flex-direction : column-reverse ;
+    }
+        
     footer{
         width: 100vw;
     }
