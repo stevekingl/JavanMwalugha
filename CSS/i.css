@@ -263,7 +263,7 @@ h4 {
 
 
 .header {
-    background: linear-gradient(to bottom, #111, #000000aa), url(/assets/_images/home\ page.jpg);
+    background: linear-gradient(to bottom, #111, #000000aa), url(assets/images/home\ page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
